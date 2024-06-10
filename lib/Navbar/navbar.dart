@@ -28,12 +28,15 @@ class DesktopNavbar extends StatelessWidget {
         actions: [
           IconButton(
             icon: Icon(Icons.language_rounded, color: Colors.black),
+            
             onPressed: () {},
           ),
+              Text('EN', style: TextStyle(color: Colors.black, fontSize: 10)),
           IconButton(
             icon: Icon(Icons.settings, color: Colors.black),
             onPressed: () {},
           ),
+          Spacer(),
           IconButton(
             icon: Icon(Icons.favorite_border, color: Colors.black),
             onPressed: () {},
@@ -58,9 +61,17 @@ class MobileNavbar extends StatelessWidget {
   Widget build(BuildContext context) {
    return   AppBar(
         backgroundColor: Colors.white,
-        elevation: 0,
-        title: Image.network('https://example.com/logo.png', height: 40),
+       
         actions: [
+          IconButton(
+            icon: Icon(Icons.language_rounded, color: Colors.black),
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: Icon(Icons.settings, color: Colors.black),
+            onPressed: () {},
+          ),
+          Spacer(),
           IconButton(
             icon: Icon(Icons.favorite_border, color: Colors.black),
             onPressed: () {},
