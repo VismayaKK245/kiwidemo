@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 203, 97, 4)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Vismaya K K New Page'),
+      home: const MyHomePage(title: 'Vismaya K K '),
     );
   }
 }
