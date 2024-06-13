@@ -123,16 +123,16 @@ class DesktopNavbar extends StatelessWidget {
     return AppBar(
       backgroundColor: Colors.white,
       actions: [
-        SizedBox(width: 90),
+        SizedBox(width: 50),
         _language(context),
         _sitesetting(context),
         Spacer(),
         _favorateborder(context),
         SizedBox(width: 15),
         _savedsearches(context),
-        SizedBox(width: 15),
+        SizedBox(width: 10),
         _buildLoginButton(context), 
-        SizedBox(width: 90),
+        SizedBox(width: 50),
       ],
     );
   }
